@@ -95,3 +95,88 @@ html, body {
     background-color: #3882F6;
 
 }
+
+.midbox{
+    color:#F9FAF8
+}
+
+.midbox .midhead{
+    position: relative;
+    width: 70%;
+    height: 130px;
+    margin-left: 15%;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+.midbox .midhead .midm{
+    margin-top: 45px;
+    height: fit-content;
+    text-align: center;
+    justify-self: center;
+    color: #1f2937;
+    font-family: RobotoBOLD;
+    font-size: 36px;
+}
+
+.midbox .labels{
+    height: 380px;
+    position: relative;
+    width: 60%;
+    margin-left: 20%;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+}
+
+.midbox .labels .indlabel{
+    display: flex;
+}
+
+.midbox .labels .indlabel .rect{
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    height: 160px;
+    margin: 30px 30px 10px 30px;
+}
+
+
+.midbox .labels .indlabel p{
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px 30px 30px 30px ;
+    color: #022b6d;
+}
+
+.mid2box{
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.mid2box .mid2content{
+    border: 2px solid #E5E7EB;
+    position: relative;
+    width: 55%;
+    margin-left: 22.5%;
+}
+
+.mid2box .mid2content .quote{
+    margin-top: 100px;
+    font-family: RobotoLI;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.mid2box .mid2content .subtext{
+    margin-bottom: 80px;
+    margin-right: 30px;
+    color: #1f2937;
+    font-family: RobotoBOLD;
+    font-size: 26px;
+    text-align: right;
+}
