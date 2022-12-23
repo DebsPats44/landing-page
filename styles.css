@@ -12,9 +12,8 @@
 }
 
 html, body {
-    box-sizing: border-box;
     height: 100%;
-  }
+}
 
 *{
     margin: 0px;
@@ -68,6 +67,8 @@ html, body {
 
 .headerbox .headercontent .image p{
     color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
 }
 
 .headerbox .headercontent .image{
@@ -86,8 +87,8 @@ html, body {
 }
 .headerbox .headercontent .bt button{
     border: 0px;
-    font-family: Roboto;
-    padding: 8px 30px;
+    font-family: RobotoBOLD;
+    padding: 8px 40px;
     font-size: 20px;
     border-radius: 8px;
     text-align: center;
@@ -126,12 +127,8 @@ html, body {
     margin-left: 20%;
     color:white;
     display: flex;
-    justify-content: center;
-}
+}}
 
-
-
-}
 
 .midbox .labels .indlabel{
     display: flex;
@@ -159,14 +156,13 @@ html, body {
 }
 
 .mid2box .mid2content{
-    border: 2px solid #E5E7EB;
     position: relative;
     width: 55%;
     margin-left: 22.5%;
 }
 
 .mid2box .mid2content .quote{
-    margin-top: 100px;
+    padding-top: 100px;
     font-family: RobotoLI;
     font-size: 36px;
     color: #1f2937;
@@ -179,4 +175,67 @@ html, body {
     font-family: RobotoBOLD;
     font-size: 26px;
     text-align: right;
+}
+
+.footerbox{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerbox .footercontent{
+    background-color: #3882F6;
+    border-radius: 10px;
+    height: 150px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerbox .footercontent .box{
+    width: 60%;
+}
+
+.footerbox .footercontent .box .txt1{
+    color:#F9FAF8 ;
+    font-family: RobotoBOLD;
+    font-size: 24px;
+}
+
+.footerbox .footercontent .box .txt2{
+    color:#E5E7EB ;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.footerbox .footercontent .box2 .bt2{
+    padding-right: 20px;
+}
+
+.footerbox .footercontent .box2 .bt2 button{
+    border: 2px solid white;
+    font-family: RobotoBOLD;
+    padding: 8px 40px;
+    font-size: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #3882F6;
+
+}
+
+.footer2box{
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer2box .txt{
+    color: #F9FAF8;
+    font-family: RobotoIL;
+    font-size: 18px;
 }
