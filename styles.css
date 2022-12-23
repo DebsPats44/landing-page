@@ -21,7 +21,7 @@ html, body {
 }
 
 .headerbox{
-    height: 300px;
+    height: 530px;
     background-color: #1f2937;
 }
 
@@ -29,8 +29,7 @@ html, body {
     position: relative;
     width: 70%;
     margin-left: 15%;
-    top:10px;
-    height: 30px;
+    top:15px;
     color:white;
     display: flex;
     justify-content: space-between;
@@ -50,4 +49,49 @@ html, body {
     flex-direction: row;
     color: #E5E7EB;
     gap:25px;
+}
+
+.headerbox .headercontent{
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+    top:120px;
+    color:white;
+    display: flex;
+}
+
+.headerbox .headercontent .main{
+    font-family: RobotoBOLD;
+    flex: 1;
+    font-size: 48px;
+}
+
+.headerbox .headercontent .image p{
+    color: #ffffff;
+}
+
+.headerbox .headercontent .image{
+    background-color: rgb(255, 255, 255,0.3);
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.headerbox .headercontent .side{
+    font-family: Roboto;
+    font-size: 18px;
+    color: #E5E7EB;
+    letter-spacing: 0.75px;
+    line-height: 25px;
+}
+.headerbox .headercontent .bt button{
+    border: 0px;
+    font-family: Roboto;
+    padding: 8px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #3882F6;
+
 }
